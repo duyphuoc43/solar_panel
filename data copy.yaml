@@ -1,0 +1,8 @@
+path: ../input/solar_panel
+test: test/images
+train: train/images
+val: test/images
+
+nc: 1
+
+names: [panel]

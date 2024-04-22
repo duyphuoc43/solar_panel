@@ -1,0 +1,8 @@
+
+test: ../input/solar_panel/test/images
+train: ../input/solar_panel/train/images
+val: ../input/solar_panel/test/images
+
+nc: 1
+
+names: [panel]
