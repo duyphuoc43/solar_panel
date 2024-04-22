@@ -1,7 +1,7 @@
 
-test: ../input/solar_panel/test/images
-train: ../input/solar_panel/train/images
-val: ../input/solar_panel/test/images
+test: ../input/solar_panel1/test/images
+train: ../input/solar_panel1/train/images
+val: ../input/solar_panel1/test/images
 
 nc: 1
 
