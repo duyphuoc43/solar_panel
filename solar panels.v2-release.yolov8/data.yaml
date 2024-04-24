@@ -1,0 +1,14 @@
+path: /Users/admin/Desktop/solar_panel/solar panels.v2-release.yolov8
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 5
+names: ['Cell', 'Cell-Multi', 'No-Anomaly', 'Shadowing', 'Unclassified']
+
+roboflow:
+  workspace: roboflow-100
+  project: solar-panels-taxvb
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-100/solar-panels-taxvb/dataset/2
