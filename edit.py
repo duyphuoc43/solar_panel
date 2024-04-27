@@ -1,7 +1,7 @@
 import os
 
 # Đường dẫn đến thư mục chứa các file txt
-folder_path = '/Users/admin/Desktop/solar_panel/train/labell'
+folder_path = 'mix/valid/labels'
 
 # Duyệt qua tất cả các file trong thư mục
 for filename in os.listdir(folder_path):
@@ -16,7 +16,7 @@ for filename in os.listdir(folder_path):
             lines = input_file.readlines()
 
         # Sửa đổi nội dung của file
-        modified_lines = [line.replace('15', '0', 1) for line in lines]
+        modified_lines = [line.replace('5', '0', 1) for line in lines]
 
         # Ghi nội dung đã sửa vào file mới
         with open(file_path, 'w') as output_file:
