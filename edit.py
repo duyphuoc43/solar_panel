@@ -1,7 +1,7 @@
 import os
 
 # Đường dẫn đến thư mục chứa các file txt
-folder_path = 'mix/valid/labels'
+folder_path = 'mix/train/labels'
 
 # Duyệt qua tất cả các file trong thư mục
 for filename in os.listdir(folder_path):
