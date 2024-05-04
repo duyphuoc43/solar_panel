@@ -4,3 +4,12 @@ test: ../test/images
 
 nc: 5
 names: ['Cell', 'Cell-Multi', 'No-Anomaly', 'Shadowing', 'Unclassified']
+augmentation:
+  - name: RandomRotate90
+    prob: 0.5
+  - name: RandomFlip
+    prob: 0.5
+  - name: RandomScale
+    scale_range: [0.8, 1.2]
+  - name: RandomTranslate
+    translate_range: [0.1, 0.1]
