@@ -1,7 +1,7 @@
 import os
 
 # Đường dẫn đến thư mục chứa các file txt
-folder_path = 'mix/train/labels'
+folder_path = '/Users/admin/Desktop/solar/solar_panel/gray/EfficientDet2-SP.v1i.yolov8_gray/valid/labels'
 
 # Duyệt qua tất cả các file trong thư mục
 for filename in os.listdir(folder_path):
