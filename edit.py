@@ -1,7 +1,7 @@
 import os
 
 # Đường dẫn đến thư mục chứa các file txt
-folder_path = '/Users/admin/Desktop/solar/solar_panel/gray/EfficientDet2-SP.v1i.yolov8_gray/valid/labels'
+folder_path = 'mix/test2/test/labels'
 
 # Duyệt qua tất cả các file trong thư mục
 for filename in os.listdir(folder_path):
@@ -16,7 +16,10 @@ for filename in os.listdir(folder_path):
             lines = input_file.readlines()
 
         # Sửa đổi nội dung của file
-        modified_lines = [line.replace('5', '0', 1) for line in lines]
+        modified_lines = []
+        for line in lines:
+            modified_line = '0' + line[1:]  # Thay đổi ký tự đầu tiên thành số 0
+            modified_lines.append(modified_line)
 
         # Ghi nội dung đã sửa vào file mới
         with open(file_path, 'w') as output_file:
