@@ -1,7 +1,7 @@
 import os
 
 # Đường dẫn đến thư mục chứa các file txt
-folder_path = 'mix/test2/test/labels'
+folder_path = 'faultme/4/labell'
 
 # Duyệt qua tất cả các file trong thư mục
 for filename in os.listdir(folder_path):
@@ -18,7 +18,7 @@ for filename in os.listdir(folder_path):
         # Sửa đổi nội dung của file
         modified_lines = []
         for line in lines:
-            modified_line = '0' + line[1:]  # Thay đổi ký tự đầu tiên thành số 0
+            modified_line = '1' + line[1:]  # Thay đổi ký tự đầu tiên thành số 0
             modified_lines.append(modified_line)
 
         # Ghi nội dung đã sửa vào file mới
