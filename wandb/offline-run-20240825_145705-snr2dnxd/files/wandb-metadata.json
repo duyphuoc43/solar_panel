@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.10.11",
+    "heartbeatAt": "2024-08-25T07:57:06.772521",
+    "startedAt": "2024-08-25T07:57:05.882689",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/duyphuoc43/solar_panel.git",
+        "commit": "12b4de627603c5a1744cc9074c157f51b802fe0a"
+    },
+    "email": "duyphuoc1907@gmail.com",
+    "root": "C:/Users/duyph/Desktop/solar_panel",
+    "host": "duyPhuoc",
+    "username": "duyph",
+    "executable": "c:\\Users\\duyph\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3201.0,
+        "min": 0.0,
+        "max": 3201.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3201.0,
+            "min": 0.0,
+            "max": 3201.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 407.32421493530273,
+            "used": 302.85795974731445
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.365715026855469
+    }
+}

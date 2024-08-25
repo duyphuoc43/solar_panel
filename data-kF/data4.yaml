@@ -1,0 +1,10 @@
+train: 
+  - ../data1/images
+  - ../data2/images
+  - ../data3/images
+  - ../data5/images
+val: ../data4/images
+test: ../data4/images
+
+nc: 5
+names: ['Hotspot', 'Hotspot', 'Normal', 'Shadow', 'Diode']
